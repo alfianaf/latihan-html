@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+}
+h1{
+    font-size: 100px;
+}
+.container{
+    border: 1px solid black;
+}
+.paragraf1{
+    color: green;
+}
+
+#content{
+    font-weight: bold;
+    color: chocolate;
+}
+.logo img{
+    margin-top: 10px;
+    float: left;
+    width: 200px;
+}
+header{
+    margin-top: -20px;
+    background-color: aquamarine;
+    height: 13vh;
+}
+.nav{
+    float:right;
+    margin: 16px;
+    padding-top: 30px;
+}
+.navigasi ul{
+    list-style-type:none;
+}
+.navigasi ul li{
+    display: inline;
+}
+.navigasi ul li a {
+    padding: 5px;
+    transition: 0.5s ease;
+}
+.nav-item:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+.title{
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.button{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn:hover{
+    background-color: blue;
+    color: aliceblue;
+
+}
+.btn {
+    border: 2px solid black;
+    background-color:limegreen;
+    transition: 0.5s ease;
+    padding: 10px 30px;
+}
+.button a{
+    color: blue;
+}
+.flex-container{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    flex-direction: row;
+    margin: 30px;
+}
+.flex-item{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    flex-grow:4;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+table th{
+    background-color:yellowgreen;
+
+}
+table td{
+    background-color: #eee;
+
+}
+/* #tablenew{
+    margin-left: 30%;
+    margin-right: 30%;
+
+} */
+#list{
+    align-items: center;
+    justify-content: center;
+}
+.carousal-item{
+    width: 200px;
+    height: 100px;
+}
+.imagesize{
+    width: auto;
+    height: 100vh;
+    margin: -100px -100px 0 0;
+}
+@media(max-width: 800px){
+.flex-container{
+flex-direction: column;
+}
+
+.button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#tablenew{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF  -8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <title>Latihan HTML</title>
+</head>
+
+<body id="home">
+    <header>
+        <div class="logo">
+            <img src="/assets/logo.webp" alt="#" />
+        </div>
+        <div>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#section-1">Section 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-2">Section 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#list">List</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Section 4</a></li>
+            </ul>
+        </div>
+        
+ 
+        <hr />
+    </header>
+    <main>
+<!--  -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+
+            <img src="/assets/1.jpg" class="d-block w-100 imagesize" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="/assets/2.jpg" class="d-block w-100 imagesize" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="/assets/1.jpg" class="d-block w-100 imagesize" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="title">
+    <h1>Hello World</h1>
+    <p id="bottomtitle">
+        "Tidak ada yang menyukai kepedihan, yang mencarinya dan ingin
+        merasakannya, semata karena pedih rasanya"
+    </p>
+</div>
+<div class="button">
+<a href="#" class="btn btn-lg btn-secondary">LEARN MORE</a>
+</div>
+<!--  -->
+
+
+        <div class="flex-container">
+            <div id="section-1" class="flex-item">
+                <div>Section 1</div>
+                <div>Section 1.2</div>
+                <a href="#home">Home</a>
+            </div>
+            <div id="section-2" class="flex-item">
+                <div>Section 2</div>
+
+                <a href="#home">Home</a>
+            </div>
+            <div id="list" class="flex-item">
+                <div>Section 3 List</div>
+                <div id="tablenew">
+                    <table style="width: 100%">
+                        <tr>
+                            <th>Nama</th>
+                            <th>Domisili</th>
+                            <th>Umur</th>
+                        </tr>
+                        <tr>
+                            <td>Alfian</td>
+                            <td>Pati</td>
+                            <td>23</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="flex-item">Section 4</div>
+        </div>
+    </main>
+    <div class="container">
+        <p class="paragraf1">ini paragraf 1</p>
+        <p id="content">ini paragraf 2</p>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+</html>
