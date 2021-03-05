@@ -22,9 +22,7 @@ h1 {
   margin-left: 10px;
 }
 .avatar{
-    position: absolute;
-    top: 33%;
-    left: 10%;
+
     object-fit: cover;
 
     width: 300px;
@@ -44,6 +42,10 @@ header {
     #26d0ce,
     #1a2980
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header-new{
+display: flex;
+  transform: translate(0%, 90%);
 }
 /* .nav {
   float: right;
@@ -71,6 +73,9 @@ header {
     right:0;
 
 }
+.nav-link{
+  color: white;
+}
 .title {
   color: white;
   position: absolute;
@@ -80,9 +85,7 @@ header {
   font-family: 'Lato', sans-serif;
   word-wrap: break-word;
 }
-.header-group{
-    display: inline-block;
-}
+
 .button {
   position: absolute;
   top: 68%;
@@ -155,7 +158,7 @@ table td {
   width: 500px;
   height: auto;
 }
-@media (max-height: 800px) and (max-width: 750px) {
+@media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
   }
@@ -169,4 +172,12 @@ table td {
     margin-left: 20%;
     margin-right: 20%;
   }
+  .header-new{
+
+    transform: translate(0%, 0%);
+  }
+header {
+  height: 110vh;
+
+}
 }
