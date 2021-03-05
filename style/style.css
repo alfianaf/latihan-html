@@ -45,8 +45,17 @@ header{
     color: aliceblue;
 }
 .title{
-    background-color: white;
     opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.title2{
+    background-color: white;
+    width: 500px;
+    height: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -78,7 +87,7 @@ header{
     display: flex;
     font-size: 30px;
     text-align: center;
-    flex-direction: row;
+    flex-direction: column;
     margin: 30px;
 }
 .flex-item{
@@ -117,11 +126,18 @@ table td{
     height: 100vh;
     margin: -100px -100px 0 0;
 }
-@media(max-width: 800px){
+.project{
+    font-size: 15px;
+}
+@media(max-height: 800px) and (max-width: 750px)  {
 .flex-container{
 flex-direction: column;
 }
-
+header{
+    margin-top: -50px;
+    background-color: white;
+    height: 13vh;
+}
 .button{
     position: absolute;
     top: 80%;
@@ -134,3 +150,4 @@ flex-direction: column;
 
 }
 }
+
