@@ -180,4 +180,13 @@ header {
   height: 110vh;
 
 }
+.avatar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+
+  width: 300px;
+  height: 300px;
+}
 }
